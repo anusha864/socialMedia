@@ -1,0 +1,83 @@
+.discover-container {
+  min-height: 100vh;
+  background-color: #fafafa;
+}
+
+.discover-content {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 24px 20px;
+}
+
+.discover-header {
+  text-align: center;
+  margin-bottom: 32px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #dbdbdb;
+}
+
+.discover-title {
+  font-size: 24px;
+  font-weight: 600;
+  color: #262626;
+  margin-bottom: 8px;
+}
+
+.discover-subtitle {
+  font-size: 14px;
+  color: #8e8e8e;
+  margin: 0;
+}
+
+.users-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.loading,
+.error-message,
+.no-users {
+  text-align: center;
+  padding: 40px 20px;
+  background: #ffffff;
+  border: 1px solid #dbdbdb;
+  border-radius: 0;
+  margin-bottom: 24px;
+}
+
+.loading {
+  color: #8e8e8e;
+  font-size: 14px;
+}
+
+.error-message {
+  color: #ed4956;
+  background: #fff;
+  border-color: #ed4956;
+  font-size: 14px;
+}
+
+.no-users {
+  color: #8e8e8e;
+  font-size: 14px;
+}
+
+.no-users p {
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .discover-content {
+    padding: 16px 12px;
+  }
+
+  .discover-title {
+    font-size: 20px;
+  }
+
+  .discover-subtitle {
+    font-size: 13px;
+  }
+}
+
+
